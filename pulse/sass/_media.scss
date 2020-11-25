@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+
+    .promo__icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header {
+        justify-content: center;
+        &__official{
+            display: none;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+    }
+    .catalog-item {
+        width: 75%;
+    }
+}
+
+    .feed__item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feed__text {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-top: 20px;
+        }
+    }
+}

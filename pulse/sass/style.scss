@@ -1,0 +1,24 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.container  {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'advantages';
+@import 'variables';
+@import 'button'; 
+@import 'promo';
+@import 'header'; 
+@import 'consultation';
+@import 'titles';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'feed';
+@import 'footer'; 
+@import 'modal';  
+@import 'up';
+@import 'animations'; 
+@import 'media';  
